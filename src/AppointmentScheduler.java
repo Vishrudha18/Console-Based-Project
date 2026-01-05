@@ -3,12 +3,17 @@ import java.util.Scanner;
 
 public class AppointmentScheduler {
 
-    static final String DB_URL = "jdbc:mysql://localhost:3306/appointment_system";
-    static final String USER = "root";
-    static final String PASS = "v1i8s1h1@2005";
+    static final String DB_URL = System.getenv("DB_URL");
+    static final String USER = System.getenv("DB_USER");
+    static final String PASS = System.getenv("DB_PASS");
+
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        if (DB_URL == null || USER == null || PASS == null) {
+            System.out.println("Environment variables not set!");
+            return;
+        }
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
