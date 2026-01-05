@@ -6,7 +6,7 @@ This project demonstrates **core Java**, **JDBC connectivity**, and **database-d
 ---
 
 ## 🔗 Project Repository
-👉 [[github.com/Vishrudha18/AppointmentScheduler](https://github.com/Vishrudha18/Console-Based-Project/tree/main/AppointmentScheduler)](https://github.com/Vishrudha18/Console-Based-Project/blob/main/src/AppointmentScheduler.java)
+👉 https://github.com/Vishrudha18/Console-Based-Project/blob/main/src/AppointmentScheduler.java
 
 ---
 
